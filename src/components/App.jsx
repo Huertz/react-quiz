@@ -35,7 +35,6 @@ function reducer(state, action) {
         status: 'active',
       };
     case 'newAnswer':
-    case 'newAnswer':
       const question = state.questions.at(state.index);
 
       return {
